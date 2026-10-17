@@ -1,0 +1,33 @@
+{
+  "url": "https://shadrussed-private-lawyer-demo.netlify.app",
+  "viewports": [
+    {
+      "width": 1440,
+      "status": 200,
+      "https": true,
+      "contact_anchor_visible": true,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "status": 200,
+      "https": true,
+      "contact_anchor_visible": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "https": true,
+      "contact_anchor_visible": true,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "status": 200,
+      "https": true,
+      "contact_anchor_visible": true,
+      "overflow": false
+    }
+  ]
+}

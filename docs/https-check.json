@@ -1,0 +1,40 @@
+{
+  "url": "https://shadrussed-private-lawyer-demo.netlify.app",
+  "paths": [
+    {
+      "path": "/",
+      "status": 200,
+      "url": "https://shadrussed-private-lawyer-demo.netlify.app/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 1793
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "url": "https://shadrussed-private-lawyer-demo.netlify.app/sitemap.xml",
+      "content_type": "application/xml",
+      "bytes": 210
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "url": "https://shadrussed-private-lawyer-demo.netlify.app/robots.txt",
+      "content_type": "text/plain; charset=UTF-8",
+      "bytes": 95
+    },
+    {
+      "path": "/social-preview.png",
+      "status": 200,
+      "url": "https://shadrussed-private-lawyer-demo.netlify.app/social-preview.png",
+      "content_type": "image/png",
+      "bytes": 114151
+    }
+  ],
+  "headers": {
+    "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'none'; base-uri 'self'; frame-ancestors 'none'",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+  },
+  "expected_title_present": true
+}

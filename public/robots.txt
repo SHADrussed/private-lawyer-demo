@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://shadrussed-private-lawyer-demo.netlify.app/sitemap.xml

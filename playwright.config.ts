@@ -12,6 +12,10 @@ export default defineConfig({
     launchOptions: {
       executablePath: process.env.CI ? undefined : "/usr/bin/chromium",
       args: ["--no-sandbox"],
+      proxy:
+        process.env.BASE_URL && process.env.HTTPS_PROXY
+          ? { server: process.env.HTTPS_PROXY }
+          : undefined,
     },
     trace: "retain-on-failure",
   },

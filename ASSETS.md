@@ -5,3 +5,5 @@
 Локальные шрифты из npm @fontsource/manrope и @fontsource/cormorant-garamond: SIL Open Font License 1.1, допускает коммерческое использование и распространение с лицензией. Фактически используемые лицензии включены в public/fonts/*-LICENSE.txt. Официальные исходники: https://github.com/sharanda/manrope и https://github.com/CatharsisFonts/Cormorant .
 
 Ссылки на юридические сайты в DESIGN_SPEC служат только исследовательскими референсами. Их ассеты и тексты не скопированы.
+
+`public/social-preview.png` — собственный скриншот первого экрана этого проекта, использованный для Open Graph. Новых сторонних ассетов при публикации не добавлялось.

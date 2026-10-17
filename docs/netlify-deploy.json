@@ -1,0 +1,10 @@
+{
+  "site_id": "651a7d3a-ff96-49a8-838e-c8bb9e4ad738",
+  "site_name": "shadrussed-private-lawyer-demo",
+  "deploy_id": "6ad37ab8e2d69f66c49371bf",
+  "deploy_url": "https://6ad37ab8e2d69f66c49371bf--shadrussed-private-lawyer-demo.netlify.app",
+  "logs": "https://app.netlify.com/projects/shadrussed-private-lawyer-demo/deploys/6ad37ab8e2d69f66c49371bf",
+  "function_logs": "https://app.netlify.com/projects/shadrussed-private-lawyer-demo/logs/functions",
+  "edge_function_logs": "https://app.netlify.com/projects/shadrussed-private-lawyer-demo/logs/edge-functions",
+  "url": "https://shadrussed-private-lawyer-demo.netlify.app"
+}
