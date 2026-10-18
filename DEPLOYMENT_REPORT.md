@@ -1,6 +1,6 @@
 # DEPLOYMENT_REPORT — Точка опоры
 
-Дата: 17.10.2026 (UTC). **Сайт опубликован и проверен по публичному HTTPS.**
+Обновлено: 18.10.2026 (UTC). Netlify-публикация: 17.10.2026. **Сайт опубликован и проверен по публичному HTTPS.**
 
 Публичная ссылка: **https://shadrussed-private-lawyer-demo.netlify.app**
 
@@ -15,7 +15,7 @@
 | Доступ посетителей | Публичный, без входа в Netlify |
 | Способ публикации | Netlify CLI 27.13.0, готовый dist, production |
 | Платные дополнения, домены, auto recharge | Не подключались |
-| Удалённый GitHub-репозиторий | Не создан: ограничение прав интеграции |
+| Удалённый GitHub-репозиторий | https://github.com/SHADrussed/private-lawyer-demo · публичный · main |
 
 Панель проекта: https://app.netlify.com/projects/shadrussed-private-lawyer-demo
 
@@ -48,22 +48,13 @@ Node для приложения/сборки: 22.12+; в Netlify config — 22.
 
 Артефакты: `docs/netlify-deploy.json`, `docs/netlify-publication.json`, `docs/https-check.json`, `docs/e2e-results.json`, `docs/live-visual-check.json`, `docs/lighthouse-mobile.json`.
 
-## GitHub — оставшееся ограничение
+## GitHub
 
-Локальный независимый Git-репозиторий с веткой main подготовлен. GitHub CLI авторизован, но попытка создания репозитория вернула:
+Исходники: **https://github.com/SHADrussed/private-lawyer-demo**. Владелец создал пустой публичный репозиторий 18.10.2026; в него загружена подготовленная история отдельного проекта, основная ветка — `main`. В репозитории доступны исходники, package-lock.json, документация, скриншоты, тесты и конфигурация Netlify.
 
-```text
-GraphQL: Resource not accessible by integration (createRepository)
-```
+[Workflow Quality](https://github.com/SHADrussed/private-lawyer-demo/actions) запускает typecheck, lint, production build и Playwright E2E на четырёх контрольных ширинах при push/pull request. Секреты для этих проверок не требуются.
 
-Удалённого репозитория `private-lawyer-demo` пока нет. Для его создания владелец может использовать терминал с нужными полномочиями:
-
-```sh
-gh auth login
-gh repo create private-lawyer-demo --public --source=. --remote=origin --push
-```
-
-Существующий подходящий вход повторять не нужно. После этого GitHub можно подключить к уже работающему проекту Netlify с build command `npm run build`, publish directory `dist`, Node 22. Публикация из CLI уже работает и не зависит от этого шага.
+Сайт Netlify уже опубликован напрямую из production-сборки. Автоматическую публикацию при будущих push можно подключить импортом этого репозитория в существующий проект Netlify: build command `npm run build`, publish directory `dist`, Node 22.
 
 ## Передача
 

@@ -8,7 +8,9 @@
 
 Публичные desktop/mobile проверки: [QA_REPORT.md](QA_REPORT.md).
 
-Целевое имя GitHub-репозитория: `private-lawyer-demo`. Удалённый репозиторий пока не создан: интеграции недоступен `createRepository`. Локальный Git-репозиторий подготовлен.
+Исходный код: **https://github.com/SHADrussed/private-lawyer-demo** · [автоматические проверки](https://github.com/SHADrussed/private-lawyer-demo/actions).
+
+![Первый экран сайта](docs/screenshots/desktop-hero.png)
 
 ## Локальный запуск
 
@@ -76,4 +78,4 @@ npx netlify-cli@27.13.0 login
 npx netlify-cli@27.13.0 deploy --site shadrussed-private-lawyer-demo --dir dist --prod --no-build
 ```
 
-Существующий вход повторять не нужно. CLI хранит авторизацию в своём глобальном профиле, который не входит в этот репозиторий. `.netlify` игнорируется. Альтернатива — импортировать GitHub-репозиторий в тот же проект Netlify после появления прав на его создание.
+Существующий вход повторять не нужно. CLI хранит авторизацию в своём глобальном профиле, который не входит в этот репозиторий. `.netlify` игнорируется. Для автоматической публикации при будущих изменениях можно подключить этот GitHub-репозиторий к существующему проекту Netlify: build command `npm run build`, publish directory `dist`, Node 22. Сейчас GitHub Actions проверяет код, а Netlify размещает ранее опубликованную production-сборку.

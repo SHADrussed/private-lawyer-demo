@@ -67,6 +67,6 @@
 
 Повторение: `BASE_URL=https://shadrussed-private-lawyer-demo.netlify.app npm run test:e2e`. Lighthouse: запустить `npx lighthouse https://shadrussed-private-lawyer-demo.netlify.app --only-categories=performance,accessibility,best-practices,seo` с установленным Chromium. В cloud при необходимости указывается системный proxy в Chrome flags.
 
-## Оставшееся ограничение
+## Публикация исходников
 
-Сайт опубликован и доступен клиентам по HTTPS. Создание удалённого GitHub-репозитория всё ещё недоступно текущей GitHub-интеграции (`createRepository`); независимый локальный Git и переносимый bundle подготовлены. Подробности — DEPLOYMENT_REPORT.md.
+Сайт опубликован и доступен клиентам по HTTPS. Исходный код и история изменений загружены в публичную ветку main: https://github.com/SHADrussed/private-lawyer-demo. Автоматические проверки — [private-lawyer-demo/actions](https://github.com/SHADrussed/private-lawyer-demo/actions). Подробности — DEPLOYMENT_REPORT.md.
